@@ -1,70 +1,45 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="nl">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.2">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titel van de Website</title>
+    </head>
 <body>
-<p class="p1">&lt;!doctype html&gt;</p>
-<p class="p1">&lt;html lang="nl"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="utf-8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Random HTML Pagina — Genereer&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>/* Basis layout */</p>
-<p class="p1"><span class="Apple-converted-space">    </span>:root {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--bg: #09121a;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--fg: #f5f7fb;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--accent: #ff7a7a;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--glass: rgba(255,255,255,0.07);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body{</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display:flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>align-items:center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>justify-content:center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background:var(--bg);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color:var(--fg);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>overflow:hidden;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.card{</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width:min(1100px,95vw);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>height:min(720px,92vh);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius:18px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding:28px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-shadow:0 20px 60px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.02);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));</p>
-<p class="p1"><span class="Apple-converted-space">      </span>position:relative;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>overflow:hidden;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>backdrop-filter: blur(6px);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display:flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>gap:20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>/* Left column: visual */</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.visual{</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex:1.2;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius:12px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background:var(--glass);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding:20px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>position:relative;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display:flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex-direction:column;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>align-items:center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>justify-content:center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>overflow:hidden;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>/* Right column: controls + info */</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.panel{</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex:0</p>
+
+    <header>
+        <h1>Naam van uw Website of Hoofdtitel</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="over.html">Over Ons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sectie 1: Welkom</h2>
+            <p>Dit is de hoofdinhoud van uw eerste sectie. Hier plaats je de belangrijkste informatie.</p>
+            <img src="afbeelding.jpg" alt="Beschrijving van de afbeelding">
+        </section>
+
+        <section>
+            <h2>Sectie 2: Meer Details</h2>
+            <p>U kunt meerdere secties gebruiken om uw inhoud te organiseren.</p>
+            <ul>
+                <li>Lijstitem 1</li>
+                <li>Lijstitem 2</li>
+                <li>Lijstitem 3</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Naam van de Website. Alle rechten voorbehouden.</p>
+        <p><a href="privacy.html">Privacybeleid</a></p>
+    </footer>
+
 </body>
 </html>
